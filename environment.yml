@@ -1,0 +1,20 @@
+name: pytorch_beginner
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - matplotlib
+  - openpyxl
+  - nodejs
+  - numpy
+  - pandas
+  - pip
+  - seaborn
+  - scikit-learn   
+  - python=3.6
+  - typing
+  - tqdm
+  - pip:
+      - glob3
+      - pickle-mixin
+      - pyparsing # to fix matplotlib import
